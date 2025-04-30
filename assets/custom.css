@@ -1,0 +1,51 @@
+/* General styling */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tabs styling */
+.dash-tab {
+    padding: 12px 20px;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 4px 4px 0 0;
+}
+
+.dash-tab--selected {
+    background-color: white;
+    border-bottom: 2px solid #4CAF50;
+    font-weight: bold;
+}
+
+.dash-tabs {
+    margin-bottom: 0;
+}
+
+/* Dropdown styling */
+.dash-dropdown {
+    border-radius: 4px;
+}
+
+/* Slider styling */
+.rc-slider-track {
+    background-color: #4CAF50;
+}
+
+.rc-slider-handle {
+    border-color: #4CAF50;
+}
+
+/* Button styling */
+button:hover {
+    background-color: #45a049 !important;
+    cursor: pointer;
+}
+
+/* Radio items styling */
+.dash-radio-items label {
+    margin-bottom: 8px;
+}
